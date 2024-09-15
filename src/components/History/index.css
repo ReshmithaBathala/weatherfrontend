@@ -1,0 +1,67 @@
+/* History.css */
+.history-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-message {
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+.no-history {
+  color: #341c1e;
+  text-align: center;
+}
+.history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-delete-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.history-delete-button:hover {
+  background-color: #f5f2f2;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid transparent;
+}
+.spanel {
+  font-size: 14px;
+  color: #341c1e;
+}
+.delete {
+  color: #c82333;
+}
+/* Responsive styling */
+@media (max-width: 768px) {
+  .history-container {
+    padding: 15px;
+  }
+
+  .history-delete-button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
