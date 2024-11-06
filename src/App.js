@@ -7,11 +7,12 @@ import History from "./components/History/History";
 import Profile from "./components/Profile/Profile";
 import Navbar from "./components/Navbar/Navbar";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
+import "./App.css";
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="background-mainweather-container">
         <Navbar />
         <Routes>
           <Route path="/" element={<Register />} />

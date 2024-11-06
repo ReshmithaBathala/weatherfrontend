@@ -26,30 +26,35 @@ const Register = () => {
     }
   };
   return (
-    <div className="register-container">
-      <h2>Register</h2>
-      <form onSubmit={handleSubmit} className="register-form">
-        <input
-          type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-          className="register-input"
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-          className="register-input"
-        />
-        <button type="submit" className="register-button">
-          Register
-        </button>
-      </form>
-      {message && <p className="register-message">{message}</p>}
+    <div className="weather-sub-container">
+      <div className="register-container">
+        <h2 className="head">
+          New User...!
+          <br /> Register here
+        </h2>
+        <form onSubmit={handleSubmit} className="register-form">
+          <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            required
+            className="register-input"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            className="register-input"
+          />
+          <button type="submit" className="register-button">
+            Register
+          </button>
+        </form>
+        {message && <p className="register-message">{message}</p>}
+      </div>
     </div>
   );
 };

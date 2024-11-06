@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.background-mainweather-container {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/974/169/small_2x/background-of-shapes-and-curves-in-pastel-colors-free-photo.jpg");
+  height: 100vh;
+  background-size: cover;
+}

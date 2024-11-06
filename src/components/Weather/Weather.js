@@ -25,7 +25,7 @@ const Weather = () => {
 
   return (
     <div className="weather-container">
-      <h2>Know today's Weather.....!!</h2>
+      <h2 className="today-weather">Know today's Weather.....!!</h2>
       <form onSubmit={handleFetchWeather} className="weather-form">
         <input
           type="text"

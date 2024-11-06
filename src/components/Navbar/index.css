@@ -1,6 +1,6 @@
 /* Navbar.css */
 .navbar {
-  background-color: #333;
+  background-color: #465d8ba1;
   padding: 10px 20px;
 }
 
@@ -21,20 +21,22 @@
   color: white;
   text-decoration: none;
   padding: 10px;
+  font-weight: bold;
   display: block;
 }
 
 .navbar-link:hover {
-  background-color: #575757;
+  background-color: #b0b16498;
   border-radius: 4px;
 }
 
 .navbar-button {
-  background-color: #f44336;
+  background-color: #185ab186;
   color: white;
   border: none;
   padding: 10px;
   cursor: pointer;
+  font-weight: bold;
   border-radius: 4px;
 }
 

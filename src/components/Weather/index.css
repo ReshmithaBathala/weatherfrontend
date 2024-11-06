@@ -30,17 +30,22 @@
 .weather-button {
   padding: 10px;
   border: none;
-  border-radius: 4px;
-  background-color: #372b22; /* Bootstrap primary color */
+  border-radius: 40px;
+  background-color: #5599dcd0; /* Bootstrap primary color */
   color: white;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
 }
 
 .weather-button:hover {
-  background-color: #876058; /* Darker shade on hover */
+  background-color: #95cbe1; /* Darker shade on hover */
 }
-
+.today-weather {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Roboto";
+}
 /* Message styling */
 .weather-message {
   margin-top: 10px;
