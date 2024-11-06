@@ -45,4 +45,4 @@ Clone the repository:
 - Bootstrap: For responsive UI design.
 - CSS Modules: For styling components.
 
-## Deployed URL: https://weatherfrontend-ochre.vercel.app/
+## Deployed URL: [https://weatherfrontend-ochre.vercel.app/](https://weatherfrontend-mse4.vercel.app/login)
